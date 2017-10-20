@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -R json-stream > unit_test_result.json"
+    "test": "./node_modules/mocha/bin/mocha --reporter json > unit_test_result.json"
   },
   "author": "",
   "license": "ISC",
