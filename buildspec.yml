@@ -25,4 +25,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - unit_test_result.txt
+    - unit_test_result.json
