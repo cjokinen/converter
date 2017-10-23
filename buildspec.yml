@@ -19,7 +19,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
-      - node_modules/mocha/bin/mocha -R json test/converter.js > unit_test_result.json
+      - node_modules/mocha/bin/mocha -R json test/*.js > unit_test_result.json
   post_build:
     commands:
       - echo Build completed on `date`
