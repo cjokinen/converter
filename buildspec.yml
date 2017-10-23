@@ -19,8 +19,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
-      - sudo chmod -R ./node_modules
-      - ./node_modules/mocha/bin/mocha -R json test/*.js
+      - test test/*.js
       #- node_modules/mocha/bin/mocha -R json test/*.js > unit_test_result.json
   post_build:
     commands:
